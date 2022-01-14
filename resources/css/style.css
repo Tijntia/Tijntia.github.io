@@ -1,0 +1,144 @@
+#titelbalk{
+  top: 0;
+  width: 100%;
+  height: 100px;
+  background-color: #35858B;
+  padding-bottom: 20px;
+  padding-top: 0px;
+  position: absolute;
+  overflow: hidden;
+}
+
+h1, h2{
+  margin-top:150px;
+  margin-left: 100px;
+  text-align: center;
+}
+
+p{
+  margin-top: 10px;
+  margin-left: 100px;
+  padding: 0px 300px;
+  text-align: left;
+}
+
+ul, li{
+  display: list-item;
+ }
+
+ul{
+  margin-left: 675px;
+}
+
+h2 {
+  font-size: 35px;
+}
+
+a{
+  text-decoration: none;
+  color: #4FBDBA;
+  text-align: center;
+  margin: 10%;
+}
+
+a:hover{
+  background-color: #AEFEFF;
+}
+
+
+#balk h3{
+  text-align: center;
+  margin: 20%;
+}
+
+
+*{
+  margin: 0;
+  padding: 0;
+  font-family: "Nunito", 'Helvetica', sans-serif;
+  color: white;
+}
+
+#titel{
+  color: #072227;
+  text-align: center;
+  margin-top: 32px;
+  font-size: 40px;
+  text-shadow: 2px 2px 4px #000000;
+}
+
+#balk{
+  top: 0;
+  left: 0;
+  width: 0;
+  height: 100%;
+  background-color: #072227;
+  position: fixed;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  transition: .5s;
+  overflow-x: hidden;
+  z-index: 1;
+}
+
+body{
+  background-color: #2f716f;
+}
+
+#indeximg{
+  display: block;
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 10%;
+  margin-top: 50px;
+}
+
+#Rockpancakes{
+  display: block;
+  width: auto;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 10%;
+  margin-top: 150px;
+}
+
+#info{
+padding: 0;
+margin: 0;
+}
+
+@media only screen and (max-width: 600px) {
+
+#balk {
+  width: 30%;
+}
+}
+
+.nav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+#main {
+  transition: .5s;
+  padding: 20px;
+}
+
+#open{
+  font-size:30px;
+  cursor:pointer;
+  z-index: 12;
+  position: fixed;
+}
+
+@media screen and (max-height: 450px) {
+  .nav {padding-top: 15px;}
+  .nav a {font-size: 18px;}
+}
