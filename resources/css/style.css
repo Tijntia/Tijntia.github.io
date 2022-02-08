@@ -1,3 +1,15 @@
+
+*{
+  margin: 0;
+  padding: 0;
+  font-family: "Nunito", 'Helvetica', sans-serif;
+  color: white;
+}
+
+body{
+  background-color: #2f716f;
+}
+
 #titelbalk{
   top: 0;
   width: 100%;
@@ -5,34 +17,39 @@
   background-color: #35858B;
   padding-bottom: 20px;
   padding-top: 0px;
-  position: absolute;
+  position: fixed;
   overflow: hidden;
+}
+
+#titel{
+  color: #072227;
+  text-align: center;
+  margin-top: 32px;
+  font-size: 40px;
+  text-shadow: 2px 2px 4px #000000;
 }
 
 h1, h2{
   margin-top:150px;
-  margin-left: 100px;
   text-align: center;
-}
-
-p{
-  margin-top: 10px;
-  margin-left: 100px;
-  padding: 0px 300px;
-  text-align: left;
-}
-
-ul, li{
-  display: list-item;
- }
-
-ul{
-  margin-left: 675px;
 }
 
 h2 {
   font-size: 35px;
 }
+
+p{
+  margin-top: 10px;
+  padding: 0px 300px;
+  text-align: center;
+}
+
+
+ul{
+  text-align: center;
+  list-style-position: inside;
+}
+
 
 a{
   text-decoration: none;
@@ -42,29 +59,9 @@ a{
 }
 
 a:hover{
-  background-color: #AEFEFF;
-}
-
-
-#balk h3{
-  text-align: center;
-  margin: 20%;
-}
-
-
-*{
-  margin: 0;
-  padding: 0;
-  font-family: "Nunito", 'Helvetica', sans-serif;
-  color: white;
-}
-
-#titel{
+  /* background-color: #AEFEFF;*/
+  background-color: #4FBDBA;
   color: #072227;
-  text-align: center;
-  margin-top: 32px;
-  font-size: 40px;
-  text-shadow: 2px 2px 4px #000000;
 }
 
 #balk{
@@ -83,16 +80,19 @@ a:hover{
   z-index: 1;
 }
 
-body{
-  background-color: #2f716f;
+#balk h3{
+  text-align: center;
+  margin: 20%;
 }
+
+
+
 
 #indeximg{
   display: block;
   width: 50%;
   margin-left: auto;
   margin-right: auto;
-  padding-left: 10%;
   margin-top: 50px;
 }
 
@@ -102,21 +102,113 @@ body{
   height: auto;
   margin-left: auto;
   margin-right: auto;
-  padding-left: 10%;
+  margin-top: 150px;
+}
+
+#Dannyfood{
+  display: block;
+  width: auto;
+  height: 500px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 150px;
+}
+
+#RyanA{
+  display: block;
+  width: auto;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 150px;
+}
+
+#TobeyDance{
+  display: block;
+  width: auto;
+  height: 500px;
+  margin-left: auto;
+  margin-right: auto;
   margin-top: 150px;
 }
 
 #info{
 padding: 0;
 margin: 0;
+padding-left: 20px;
 }
 
-@media only screen and (max-width: 600px) {
+#infoDwayne{
+ padding: 5;
+ margin: 0;
+ padding-left: 20px;
+}
 
-#balk {
-  width: 30%;
+@media only screen and (max-width: 600px){
+  #indeximg{
+    display: block;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+  }
+
+  #Rockpancakes{
+    display: block;
+    width: 100%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 150px;
+  }
+
+  #Dannyfood{
+    display: block;
+    width: 100%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 150px;
+  }
+
+  #RyanA{
+    display: block;
+    width: 100%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 150px;
+  }
+
+  #TobeyDance{
+    display: block;
+    width: 100%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 150px;
+  }
+
+    h1{
+      text-align: center;
+    }
+
+    p{
+      font-size: 16px;
+      text-align: center;
+      padding: 0px 0px;
+    }
+
+    #open{
+      font-size: 16px !important;
+      cursor: pointer;
+      z-index: 12;
+      position: fixed;
+      color: black;
+    }
+
 }
-}
+
 
 .nav .closebtn {
   position: absolute;
@@ -132,13 +224,14 @@ margin: 0;
 }
 
 #open{
-  font-size:30px;
-  cursor:pointer;
+  font-size: 30px;
+  cursor: pointer;
   z-index: 12;
   position: fixed;
+  color: black;
 }
 
-@media screen and (max-height: 450px) {
+@media only screen and (max-height: 450px) {
   .nav {padding-top: 15px;}
   .nav a {font-size: 18px;}
 }
